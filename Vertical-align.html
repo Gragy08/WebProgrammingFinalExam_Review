@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Vertical Align Example</title>
+    <style>
+        .container {
+        font-size: 24px;
+        line-height: 50px;
+        border: 1px solid #ccc;
+        padding: 20px;
+        }
+        .align-box {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        background-color: lightblue;
+        }
+        .middle {
+        vertical-align: middle;
+        }
+        .text-top {
+        vertical-align: text-top;
+        }
+        .text-bottom {
+        vertical-align: text-bottom;
+        }
+        .top {
+        vertical-align: top;
+        }
+        .bottom {
+        vertical-align: bottom;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        middle:
+        <span class="align-box middle"></span> Text
+        <br><br>
+
+        text-top:
+        <span class="align-box text-top"></span> Text
+        <br><br>
+
+        text-bottom:
+        <span class="align-box text-bottom"></span> Text
+        <br><br>
+
+        top:
+        <span class="align-box top"></span> Text
+        <br><br>
+
+        bottom:
+        <span class="align-box bottom"></span> Text
+    </div>
+</body>
+</html>
