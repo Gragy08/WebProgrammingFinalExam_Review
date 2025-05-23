@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>My First Web Page</title>
+<!-- <head>
+    <style>
+        body {
+            background-color: lightblue;
+        }
+        h1 {
+            color: white;
+            text-align: center;
+        }
+        p {
+            font-family: verdana;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>My First Web Page</h1>
+        <p>My first paragraph.</p>
+    <script>
+        window.alert(5 + 6);
+    </script>
+
+    <h1>My First Web Page</h1>
+        <p>My first paragraph.</p>
+    <script>
+        document.write(5 + 6);
+    </script>
+
+    <h1>My First Web Page</h1>
+    <p>My first paragraph.</p>
+    <button onclick="document.write(5 + 6)">Try it</button>
+
+    <h1>My First Web Page</h1>
+    <p>My First Paragraph</p>
+    <p id="demo"></p>
+    <script>
+    document.getElementById("demo").innerHTML = 5 + 6;
+    </script>
+
+    <script>
+    let book = {
+        title: "JavaScript Basics",
+        author: "Minh",
+        year: 2024
+    };
+
+    let key = "title";
+
+    console.log(book.title);      // JavaScript Basics
+    console.log(book["author"]);  // Minh
+    console.log(book[key]);       // JavaScript Basics
+    </script>
+</body> -->
+
+<html>
+<head>
+<title> Fun with Buttons </title>
+<script language="JavaScript">
+function Help()
+// Results: displays a help message in a separate window
+{
+var OutputWindow = window.open("", "OutWin");
+OutputWindow.document.open();
+OutputWindow.document.write("This might be a context-" +
+"sensitive help message, depending on the " +
+"application and state of the page.");
+OutputWindow.document.close();
+}
+</script>
+</head>
+<body>
+<form name="ButtonForm">
+<input type="button" value="Click for Help"
+onClick="Help();">
+</form>
+</body>
+</html>
+
+</html>
