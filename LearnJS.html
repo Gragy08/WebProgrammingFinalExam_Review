@@ -58,27 +58,27 @@
 </body> -->
 
 <html>
-<head>
-<title> Fun with Buttons </title>
-<script language="JavaScript">
-function Help()
-// Results: displays a help message in a separate window
-{
-var OutputWindow = window.open("", "OutWin");
-OutputWindow.document.open();
-OutputWindow.document.write("This might be a context-" +
-"sensitive help message, depending on the " +
-"application and state of the page.");
-OutputWindow.document.close();
-}
-</script>
-</head>
-<body>
-<form name="ButtonForm">
-<input type="button" value="Click for Help"
-onClick="Help();">
-</form>
-</body>
+    <head>
+        <title> Fun with Buttons </title>
+        <script language="JavaScript">
+            function Help()
+            // Results: displays a help message in a separate window
+            {
+            var OutputWindow = window.open("", "OutWin");
+            OutputWindow.document.open();
+            OutputWindow.document.write("This might be a context-" +
+            "sensitive help message, depending on the " +
+            "application and state of the page.");
+            OutputWindow.document.close();
+            }
+        </script>
+        </head>
+    <body>
+        <form name="ButtonForm">
+            <input type="button" value="Click for Help"
+            onClick="Help();">
+        </form>
+    </body>
 </html>
 
 </html>
